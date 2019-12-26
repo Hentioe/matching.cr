@@ -1,6 +1,6 @@
 # matching
 
-Iterate over field matches, support destructuring inside values
+Iterate over destructuring fields, matching and assigning values.
 
 ## Installation
 
@@ -35,6 +35,7 @@ name : String? = nil
 
 Matching.matching(p1, name: name, age: 18, hobbies: ["Swimming"])
 pp name # => "John"
+
 Matching.matching(p1, name: name, age: 21)
 pp name # => nil
 

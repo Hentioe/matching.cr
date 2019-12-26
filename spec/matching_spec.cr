@@ -9,6 +9,7 @@ describe Matching do
 
     Matching.matching(p1, name: name, age: 18, hobbies: ["Swimming"])
     name.not_nil!.should eq("John")
+
     Matching.matching(p1, name: name, age: 21)
     name.should be_nil
 
