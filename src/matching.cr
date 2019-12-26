@@ -1,4 +1,3 @@
-# TODO: Write documentation for `Matching`
 module Matching
   VERSION = "0.1.0"
 
