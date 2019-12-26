@@ -1,6 +1,6 @@
 # matching
 
-Iterate over destructuring fields, matching and assigning values.
+Traversing the fields of a structure, matching and assigning values.
 
 ## Installation
 
