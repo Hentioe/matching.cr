@@ -1,0 +1,9 @@
+name: matching
+version: 0.1.0
+
+authors:
+  - Hentioe <me@bluerain.io>
+
+crystal: 0.32.1
+
+license: MIT
